@@ -45,8 +45,8 @@ string unpackingString(string sourceString) {
 
 bool protect(string str) {
     for (int i = 0; i < str.length(); i++) {
-        if (((strchr(ABC, str[i]))) || ((strchr(DIGITS, str[i])))) {}
-        else return false;
+        if (not ((strchr(ABC, str[i]))) || ((strchr(DIGITS, str[i])))) {}
+            return false;
     }
 
     return true;
@@ -55,7 +55,6 @@ bool protect(string str) {
 
 int main()
 {
-    start:
     string sourceString;
     cout << "Enter the packed string in uppercase: ";
     cin >> sourceString;
@@ -66,7 +65,6 @@ int main()
     }
     else {
         cout << "Entered a wrong string!" << endl;
-        goto start;
     }
     
     system("pause");

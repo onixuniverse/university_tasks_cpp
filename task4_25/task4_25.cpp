@@ -15,8 +15,8 @@ vector<RationalNumber> createFillArray(int count) {
 
     for (int i = 0; i <= count; i++) {
         RationalNumber rn;
-        rn.numerator = rand() % 11;
-        rn.determinator = rand() % 11 + 1;
+        rn.numerator = rand() % 101;
+        rn.determinator = rand() % 101 + 1;
 
         arr.push_back(rn);
     }
@@ -74,4 +74,6 @@ int main()
         cout << "There are no equal values" << endl;
 
     printf("Max: %d/%d\n", resultTwo.numerator, resultTwo.determinator);
+    
+    system("pause");
 }

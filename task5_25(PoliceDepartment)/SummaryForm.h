@@ -11,7 +11,7 @@ namespace PoliceDepartment {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для SummaryForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї SummaryForm
 	/// </summary>
 	public ref class SummaryForm : public System::Windows::Forms::Form
 	{
@@ -20,13 +20,13 @@ namespace PoliceDepartment {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~SummaryForm()
 		{
@@ -42,46 +42,19 @@ namespace PoliceDepartment {
 	private: System::Windows::Forms::PrintDialog^ printDialog1;
 	private: System::Windows::Forms::Button^ btnPrint;
 	private: System::Windows::Forms::Button^ btnOK;
-
-
+	
 	protected:
-
-
-	protected:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	protected:
-
-
-
-
-
-
-
-	protected:
-
+	
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -102,7 +75,7 @@ namespace PoliceDepartment {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(54, 24);
 			this->label1->TabIndex = 0;
-			this->label1->Text = L"ФИО";
+			this->label1->Text = L"Г”Г€ГЋ";
 			// 
 			// label2
 			// 
@@ -113,7 +86,7 @@ namespace PoliceDepartment {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(150, 24);
 			this->label2->TabIndex = 1;
-			this->label2->Text = L"Дата рождения";
+			this->label2->Text = L"Г„Г ГІГ  Г°Г®Г¦Г¤ГҐГ­ГЁГї";
 			// 
 			// label3
 			// 
@@ -124,7 +97,7 @@ namespace PoliceDepartment {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(110, 24);
 			this->label3->TabIndex = 2;
-			this->label3->Text = L"Судимость";
+			this->label3->Text = L"Г‘ГіГ¤ГЁГ¬Г®Г±ГІГј";
 			// 
 			// printDialog1
 			// 
@@ -138,7 +111,7 @@ namespace PoliceDepartment {
 			this->btnPrint->Name = L"btnPrint";
 			this->btnPrint->Size = System::Drawing::Size(75, 23);
 			this->btnPrint->TabIndex = 3;
-			this->btnPrint->Text = L"Печать";
+			this->btnPrint->Text = L"ГЏГҐГ·Г ГІГј";
 			this->btnPrint->UseVisualStyleBackColor = true;
 			this->btnPrint->Click += gcnew System::EventHandler(this, &SummaryForm::btnPrint_Click);
 			// 
@@ -149,7 +122,7 @@ namespace PoliceDepartment {
 			this->btnOK->Name = L"btnOK";
 			this->btnOK->Size = System::Drawing::Size(75, 23);
 			this->btnOK->TabIndex = 4;
-			this->btnOK->Text = L"ОК";
+			this->btnOK->Text = L"ГЋГЉ";
 			this->btnOK->UseVisualStyleBackColor = true;
 			this->btnOK->Click += gcnew System::EventHandler(this, &SummaryForm::btnOK_Click);
 			// 
@@ -168,7 +141,7 @@ namespace PoliceDepartment {
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
 			this->Name = L"SummaryForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Сводка";
+			this->Text = L"Г‘ГўГ®Г¤ГЄГ ";
 			this->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &SummaryForm::SummaryForm_Paint);
 			this->ResumeLayout(false);
 			this->PerformLayout();
@@ -189,7 +162,7 @@ namespace PoliceDepartment {
 		}
 
 	private: System::Void SummaryForm_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
-		//DrawString(12, 40, "Иванов Иван Иванович");
+		//DrawString(12, 40, "Г€ГўГ Г­Г®Гў Г€ГўГ Г­ Г€ГўГ Г­Г®ГўГЁГ·");
 		float y = 40;
 
 		for (int i = 0; i < violators.size(); i++) {
@@ -199,17 +172,17 @@ namespace PoliceDepartment {
 			if (violators[i].criminalRecord.index() == 0) {
 				bool isNickname = std::get<bool>(violators[i].criminalRecord);
 				if (isNickname) {
-					criminalRecord = "Есть кличка";
+					criminalRecord = "Г…Г±ГІГј ГЄГ«ГЁГ·ГЄГ ";
 				}
 				else {
-					criminalRecord = "Нет судимости";
+					criminalRecord = "ГЌГҐГІ Г±ГіГ¤ГЁГ¬Г®Г±ГІГЁ";
 				}
 			}
 			else if (violators[i].criminalRecord.index() == 1) {
 				criminalRecord = gcnew String(std::get<std::string>(violators[i].criminalRecord).c_str());
 			}
 			else if (violators[i].criminalRecord.index() == 2) {
-				criminalRecord = gcnew String(std::get<int>(violators[i].criminalRecord).ToString()) + " дней";
+				criminalRecord = gcnew String(std::get<int>(violators[i].criminalRecord).ToString()) + " Г¤Г­ГҐГ©";
 			}
 
 			DrawString(12, y, name);

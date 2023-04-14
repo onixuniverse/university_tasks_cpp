@@ -15,6 +15,8 @@ void readFile(System::String^ inputFilePathManaged) {
 	while (inputFile >> word) {
 		words.push_back(word);
 	}
+	
+	inputFile.close();
 }
 
 

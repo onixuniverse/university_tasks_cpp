@@ -33,22 +33,22 @@
 30.	Сериализация и десериализация данных в формате XML. Напишите программу, сохраняющую список фильмов в файл XML и читающую этот список обратно. Для каждого фильма определены: числовой идентификатор, название, год выхода на экраны, продолжительность в минутах, список режиссеров, список сценаристов и список главных ролей с именами актеров. Вот как мог бы выглядеть такой файл XML:
 ```<?xml version="1.0"?>
 <movies>
-<movie id="9871" title="Forrest Gump" year="1994" length="202">
-<cast>
-<role star="Tom Hanks" name="Forrest Gump" />
-<role star="Sally Field" name="Mrs. Gump" />
-<role star="Robin Wright" name="Jenny Curran" />
-<role star="Mykelti Williamson" name="Bubba Blue" />
-</cast>
-<directors>
-<director name="Robert Zemeckis" />
-</directors>
-<writers>
-<writer name="Winston Groom" />
-<writer name="Eric Roth" />
-</writers>
-</movie>
-<!--другие элементы movie -->
+  <movie id="9871" title="Forrest Gump" year="1994" length="202">
+    <cast>
+      <role star="Tom Hanks" name="Forrest Gump" />
+      <role star="Sally Field" name="Mrs. Gump" />
+      <role star="Robin Wright" name="Jenny Curran" />
+      <role star="Mykelti Williamson" name="Bubba Blue" />
+    </cast>
+  <directors>
+    <director name="Robert Zemeckis" />
+  </directors>
+  <writers>
+    <writer name="Winston Groom" />
+    <writer name="Eric Roth" />
+  </writers>
+  </movie>
+  <!--другие элементы movie -->
 </movies>```
 ---
 Замечания.
